@@ -10,7 +10,7 @@ Cette semaine va être consacrée à l'installation des utilitaires nécessaire 
 
 Normalement si vous avez fait THP ça ne devrait pas être un souci pour vous.
 
-Les méthodes contenues dans Ruby sont nombreses et variées. Il est de bon goût d'avoir lu au moins une fois toutes les méthodes présentes dans quelques classes standard:
+Les méthodes contenues dans Ruby sont nombreuses et variées. Il est de bon goût d'avoir lu au moins une fois toutes les méthodes présentes dans quelques classes standard:
 * [String](https://ruby-doc.org/core-2.6.2/String.html)
 * [Array](https://ruby-doc.org/core-2.6.2/Array.html)
 * [Hash](https://ruby-doc.org/core-2.6.2/Hash.html)
@@ -21,7 +21,7 @@ Les méthodes contenues dans Ruby sont nombreses et variées. Il est de bon goû
 
 Il va faloir se refamiliariser avec git et github
 
-* Bien connaitre ses commandes git: `commit`, `push`, `pull`, `merge`, `checkout`, `diff`, `status` a minima.
+* Bien connaitre ses commandes git: `commit`, `push`, `pull`, `merge`, `checkout`, `diff`, `status` à minima.
 * Je vous conseille de regarder la [vidéo de Vince a ce sujet](https://www.youtube.com/watch?v=y8BIl2shajQ)
 * Pour Github, regardez comment marche: 
   * Les issues (créez en quelques unes si vous l'avez jamais fait)
@@ -30,7 +30,11 @@ Il va faloir se refamiliariser avec git et github
 * Si vous vous ennuyez: [Quelques un de mes conseils pour git](https://www.zaratan.fr/posts/2018-05-04-conseil-sur-git)
 ### Heroku
 
-Avoir un account, avoir configuré son shell (même si vous vous en servirez peu) et prendre le temps de visiter les différents onglets.
+Avoir un account, avoir configuré son shell (même si vous vous en servirez peu) et prendre le temps de visiter les différents onglets d'un projet (et comprendre ce a quoi ils servent). 
+
+Heroku a de nombreux guides disponibles dont:
+* [Explication globale](https://devcenter.heroku.com/articles/how-heroku-works)
+* [Qu'est ce qu'un dyno](https://devcenter.heroku.com/articles/dynos)
 
 ### Docker et docker-compose
 
