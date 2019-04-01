@@ -2,7 +2,7 @@
 
 Cette semaine sera une semaine pour se préparer doucement à la suite (et aussi pour souffler/décompresser post THP).
 
-Cette semaine va être consacrée à l'installation des utilitaires, nécessaire et une liste de lecture pour se préparer doucement.
+Cette semaine va être consacrée à l'installation des utilitaires nécessaire et une liste de lecture pour se préparer doucement.
 
 ## Les utilitaires:
 
@@ -31,3 +31,21 @@ Il va faloir se refamiliariser avec git et github
 ### Heroku
 
 Avoir un account, avoir configuré son shell (même si vous vous en servirez peu) et prendre le temps de visiter les différents onglets.
+
+### Docker et docker-compose
+
+Comprendre l'idée globale de docker. Pas la peine de bien savoir l'utiliser. Dans un premier temps vous n'allez utiliser que quelques commandes faciles.
+
+J'avais essayé de donner un apperçu [ici](https://www.zaratan.fr/posts/2018-02-17-docker/)
+
+## La liste de lecture
+
+Ici c'est plus de la recommandation et ça dépendra de votre temps.
+* Vous pouvez pick des sujets a votre convenance sur www.zaratan.fr;
+* Si vous aimez les livres:
+  * Le Poodr est une excelente lecture;
+  * Eloquent Ruby donne de très bonnes bases sur la "_façon_" de coder en ruby;
+  * Design Pattern in ruby est aussi très bien. Il fait un tour des design pattern existants en informatique et sur comment les utiliser en Ruby.
+* Un guide sur comment écrire des [user stories](https://sobolevn.me/2019/02/engineering-guide-to-user-stories);
+* La doc de Rspec, FactoryBot, Faker, Rails, Rubocop;
+* Vous pouvez regarder a quoi ressemble CircleCI aussi.
