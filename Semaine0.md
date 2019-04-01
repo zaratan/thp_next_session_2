@@ -38,7 +38,7 @@ Comprendre l'idée globale de docker. Pas la peine de bien savoir l'utiliser. Da
 
 J'avais essayé de donner un apperçu [ici](https://www.zaratan.fr/posts/2018-02-17-docker/)
 
-## La liste de lecture
+## La liste de lecture:
 
 Ici c'est plus de la recommandation et ça dépendra de votre temps.
 * Vous pouvez pick des sujets a votre convenance sur www.zaratan.fr;
@@ -49,3 +49,14 @@ Ici c'est plus de la recommandation et ça dépendra de votre temps.
 * Un guide sur comment écrire des [user stories](https://sobolevn.me/2019/02/engineering-guide-to-user-stories);
 * La doc de Rspec, FactoryBot, Faker, Rails, Rubocop;
 * Vous pouvez regarder a quoi ressemble CircleCI aussi.
+
+## Les choses a faire:
+
+* Installer les choses;
+* Se reposer;
+* Faire des Kata: Ça va plus être quelque chose qui aura lieu TOUS les jours. Faites un kata par jour à la fin de thp@next vous n'aurez plus peur (ou en tous cas beaucoup moins) des questions d'entretien car vous en aurez déjà fait au moins 60. Pour ça il existe 2 sites très bien:
+  * CodeWars: Plus progressif. Ajoutez moi en ami ici: https://www.codewars.com/users/Zaratan
+  * CodeSignal: Plus tourné vers les entretiens d'embauche. Ajoutez moi ici: https://app.codesignal.com/profile/denispasin
+* Se reposer;
+* Lire;
+* Remplir ce document: https://docs.google.com/spreadsheets/d/1c8EwpxWJ-tP--hGupPMnG4jrtM3Bm9AWl4Q6CAiU-6s/edit?usp=sharing
