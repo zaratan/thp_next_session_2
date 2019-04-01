@@ -60,3 +60,4 @@ Ici c'est plus de la recommandation et ça dépendra de votre temps.
 * Se reposer;
 * Lire;
 * Remplir ce document: https://docs.google.com/spreadsheets/d/1c8EwpxWJ-tP--hGupPMnG4jrtM3Bm9AWl4Q6CAiU-6s/edit?usp=sharing
+* Remplir son profil Github (Une photo et un nom partout. Les recruteur vont le regarder. C'est un peu l'extention de votre CV)
