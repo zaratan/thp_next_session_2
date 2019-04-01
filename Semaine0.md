@@ -37,6 +37,7 @@ Avoir un account, avoir configuré son shell (même si vous vous en servirez peu
 Comprendre l'idée globale de docker. Pas la peine de bien savoir l'utiliser. Dans un premier temps vous n'allez utiliser que quelques commandes faciles.
 
 J'avais essayé de donner un apperçu [ici](https://www.zaratan.fr/posts/2018-02-17-docker/)
+Vous Devriez aussi lire et suivre: https://docs.docker.com/get-started/
 
 ## La liste de lecture:
 
