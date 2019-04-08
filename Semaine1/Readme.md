@@ -19,6 +19,8 @@ Vous trouverez le repo de base ici: https://github.com/denispasin/mvc_exercise
 
 ## Exercice
 
+**ATTENTION: LIRE LE README DU PROJET**: C'est une bonne pratique quand vous clonez un projet de regarder son Readme. Y aura assez souvent des infos CRUCIALES dedans :) 
+
 (Ces consignes viennent directement de https://github.com/Tarek-Dinkespiler/mvc_exercise/wiki)
 
 Follow through the categories in the given order.
@@ -34,8 +36,6 @@ This configuration is partly dockerized and is supposed to be quite universal. A
 We expect you to be curious and we definitely expect you to go deeper in the weekly concepts. A lot of this is new and you will want to know it all. However, we recommand that you take your time or **it will drive you crazy**. Please, **FOCUS** on the tasks that are described. They are already a handful ! Our method consists in learning by doing, it is much less painful.
 
 **Work hard and Good luck !**
-
-**ATTENTION: LIRE LE README DU PROJET**
 
 ## MVC part
 
