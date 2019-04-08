@@ -35,7 +35,7 @@ We expect you to be curious and we definitely expect you to go deeper in the wee
 
 **Work hard and Good luck !**
 
-** ATTENTION: LIRE LE README DU PROJET**
+**ATTENTION: LIRE LE README DU PROJET**
 
 ## MVC part
 
