@@ -4,6 +4,4 @@ We want both models to be **confirmable**, so we will be setting up a mailer sys
 * follow the devise documentation in order to create an **Admin** and a **User** model with the **confirmable** option.
 * run the migrations  
 * update the routes
-* generate the views for each model
 * modify the administration controller so that only signed_in admins are authorized
-* test the database for both model attributes (using rspec)
