@@ -41,6 +41,23 @@ Each time you add a gem, remember to run bundle install ;)
 
 ## Rubocop
 
+### Why?
+
+Rubocop will help us to keep our code clean, and consistant and will warn us about various optimizations/best practices along the way.
+
+### Must have
+
+- [ ] Add [rubocop](https://github.com/rubocop-hq/rubocop)
+- [ ] Add [relaxed rubocop](https://relaxed.ruby.style/)
+- [ ] Add [rubocop-rspec](https://github.com/rubocop-hq/rubocop-rspec)
+- [ ] Should look like [base_robocop.yml](https://raw.githubusercontent.com/denispasin/mvc_exercise/dine/.rubocop.yml). Be sure to understand Everything in it.
+- [ ] Run it and fix any issue already there (hint: `rubocop -a` try to autofix everything)
+
+### Reading list
+
+- https://github.com/rubocop-hq/ruby-style-guide
+- https://github.com/rubocop-hq/rails-style-guide
+
 ## Rspec
 
 ### Shoulda
