@@ -55,12 +55,12 @@ An issue should have 3 criteria:
 - **A description**: A long description should highlight as much as possible the differents points needed to succeed.
 - **Some acceptance criteria**: A list of things that must be done to consider the issue as done (Must have).
 
-Plus, each issue should have a score indicating its difficulty.
+Plus, each issue should have a score indicating its difficulty. (I use labels for scoring)
 
 ### Example
 
-Title: User Login
-Score: 3
+- Title: User Login
+- Score: 3
 
 ```markdown
 ### Why
@@ -74,7 +74,8 @@ A user should be able to log in into the app to access pages
 - [ ] Remember to add stuff into regression testing document
 - [ ] Log in button say: "Login"
 - [ ] A notice should appear saying: "You are now logged in."
-      […]
+
+[…]
 
 ### Must Have
 
