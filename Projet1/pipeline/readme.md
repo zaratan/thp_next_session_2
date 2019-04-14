@@ -19,7 +19,7 @@ Each should have:
 
 ### Todo
 
-- [ ] Create an heroku pipeline
+- [ ] Create a heroku pipeline
 - [ ] Create the staging app
 - [ ] Create the prod app
 - [ ] Add postgres on both

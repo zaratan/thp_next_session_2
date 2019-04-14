@@ -6,12 +6,12 @@ A development workflow should be the following:
 
 1. A developer picks a new issue (let's say "#42 answer the question")
 2. He creates a new branch named accordingly (here: ticket/42_life_and_universe)
-3. He works in it and finish the work + related tests. He makes multiple commits. All of the should reference the issue number (for example: "#42: Taking care of mice")
-4. He creates a new pull-request (here: "For #42: Solving the ultimate question") to master for his job: Go to https://github.com/user/repo/pulls and click on "Create a new pull request".
-5. His pull request description Must end with the line: "Closes: #42" so the issue will be automatically closed.
+3. He works on it and finishes the work + related tests. He makes multiple commits. All of them should reference the issue number (for example: "#42: Taking care of mice")
+4. He creates a new pull-request of his work (here: "For #42: Solving the ultimate question") on the master branch: Go to https://github.com/user/repo/pulls and click on "Create a new pull request".
+5. His pull request description must end with the line: "Closes: #42", so the issue will be automatically closed.
 6. When he is satisfied with the state of his PR he assigns it to another dev.
-7. The **Other** developer will do the code review. He can asks questions, suggests modifications and at the end approve the PR.
-8. _IF_ The review apps have been activated in heroku, doing a test in it is the good time.
+7. An **Other** developer will do the code review. He can asks questions, suggests modifications and finally can approve the PR.
+8. _IF_ review apps have been activated in heroku, it is the right time to use them to try some tests.
 9. Merge the PR into master. It should be deployed in staging.
 10. Verify that everything is fine in staging: The issue itself + an overall sanity test of the app. Having review apps activated **doesn't** remove the need to do this!
 11. Promote staging to production is everything is fine otherwise, warn others of the problem and fix it ASAP in another branch and PR. Do not fix directly on master.

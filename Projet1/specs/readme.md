@@ -1,6 +1,6 @@
 # Writing specs
 
-When you write specs, there two steps:
+When you write specs, there are two steps:
 
 1. Writing User Stories (US): high-level description of the app's comportment. No technical stuff here.
 2. Writing Issues: Issues represent a chewable division of work for a developer.
@@ -47,7 +47,7 @@ Feature: Login
 ## Issue
 
 An issue is a rather constraint amount of work.
-Most of the time an Issue is related to a US (but not always, an issue for tech purposes only is valid).
+Most of the time an Issue is related to a US (but not always, an issue for tech purposes only is also valid).
 
 An issue should have 3 criteria:
 

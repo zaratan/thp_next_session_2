@@ -6,7 +6,7 @@ All reading lists are optional and only helps for a better understanding of the 
 
 ### Why?
 
-Creating the app, "_the right way_" will help the process as changing the default after is a bit tedious/difficult in rails.
+Creating the app, "_the right way_" will help the process, as changing the default after is a bit tedious/difficult in rails.
 
 ### Must have
 
@@ -24,14 +24,14 @@ Creating the app, "_the right way_" will help the process as changing the defaul
 
 Setting the ruby version ensure that every developer AND production will use the same ruby version.
 
-The ruby gemset is a tool to ensure that our project's gems will only be installed and visible by it. Same, it won't be able to see other project gems.
-It helps NOT having things that works in dev but not in production.
+The ruby gemset is a tool for separating our project's gems from other gems installed on our computer.
+A gemset prevents having gems installed locally that will be missing in production.
 
 ### Must Have
 
 - [ ] .ruby-version: Must be 2.6.2
-- [ ] Add it to your gemfile: replace the line indicating ruby version by: `ruby File.read('./.ruby-version')`
-- [ ] .ruby-gemset: Must be any uniq string related to the project
+- [ ] Add it to your gemfile: replace the line indicating ruby version with: `ruby File.read('./.ruby-version')`
+- [ ] .ruby-gemset: Must be any unique string related to the project
 
 ### Reading List
 
@@ -54,7 +54,7 @@ Rubocop will help us to keep our code clean, and consistant and will warn us abo
 - [ ] Add [relaxed rubocop](https://relaxed.ruby.style/)
 - [ ] Add [rubocop-rspec](https://github.com/rubocop-hq/rubocop-rspec)
 - [ ] Should look like [base_robocop.yml](https://raw.githubusercontent.com/denispasin/mvc_exercise/dine/.rubocop.yml). Be sure to understand Everything in it.
-- [ ] Run it and fix any issue already there (hint: `rubocop -a` try to autofix everything)
+- [ ] Run it and fix any offense already present in your code (hint: `rubocop -a` try to autofix everything)
 
 ### Reading list
 
@@ -65,8 +65,8 @@ Rubocop will help us to keep our code clean, and consistant and will warn us abo
 
 ### Why?
 
-We need a test framework right away. This way, rails will generate the different files correctly.
-I'd rather like Rspec as its syntax is more readable and the tests look good.
+We need a test framework right away. This way, rails will generate files properly.
+I rather like Rspec as its syntax is more readable and the tests look good.
 
 ### Must have
 
@@ -160,7 +160,7 @@ Consider it as a maximum of trust you can have in a codebase.
 
 ### Why?
 
-It's easier to be able to know what is in DB on top of relevant files.
+It makes it easier to know what is in the DB schema, by adding comments on top of relevant files
 
 ### Must have
 
@@ -204,23 +204,25 @@ Copy paste the configuration from [previous project](https://github.com/denispas
 
 ### Why ?
 
-Husky is a tool to run commands before each commit and push. It block a commit/push if everything is not perfect.
+Husky is a tool that run commands before each commit, and before each push. It will block them if everything is not perfect.
 
 We are all lazy. Husky helps us by forcing us to keep our code base clean and tested.
 
 ### Must have
 
-- [ ] check your version of node should be > 6 and npm installed
+- [ ] check your version of node (should be > 6) and npm installed
 - [ ] `npm install --dev husky` https://github.com/typicode/husky
-- [ ] Configure it for running before each commit: rubocop
-- [ ] Configure it for running before each push: rspec
+- [ ] Configure Husky in order for rubocop to run before each commit
+- [ ] Configure Husky in order for Rspec to run before each push
 - [ ] Don't forget to add `node_modules` inside your `.gitignore`
 
 ## Guard (optional)
 
 ### Why ?
 
-Guard is a tool that watch for any change on certain files and then run some commands.
+Guard is a tool that watches for any change on certain files to run some commands.
+Here we will use it to run rspec and rubocop automatically when we save a file.
+
 It's useful 'cause we can use it to never forget to run tests/linting before commit/push.
 
 ### Must have
