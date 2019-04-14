@@ -11,6 +11,8 @@ Il reste 10 semaines - une pour les entretiens :
 
 Comme d'habitude : Dans le [Google doc](https://docs.google.com/spreadsheets/d/1c8EwpxWJ-tP--hGupPMnG4jrtM3Bm9AWl4Q6CAiU-6s/edit?usp=sharing). Page "Projet 1".
 
+Je vous laisse vous débrouiller pour faire les équipes. Une de 4 et deux de 5.
+
 Je ne demande pas spécialement le fait d'avoir un "chef" de groupe, mais d'experience si cette personne n'est pas désignée collégialement au début du projet, elle va apparaitre d'elle même et aura juste moins de légitimité.
 Un role de "chef" de groupe serait a mon sens celui d'un scrum master : responsable de s'assurer que la cohésion d'équipe se fasse bien, que les gens discutent des problèmes et que tout le monde suive les règles du projet.
 
