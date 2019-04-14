@@ -3,8 +3,9 @@
 Bienvenue dans ce premier projet en groupe.
 
 Il reste 10 semaines - une pour les entretiens:
-  - Projet 1: 4 semaines, 2 sprints
-  - Projet 2: 5 semaines, 2 sprints + 1 brush-up
+
+- Projet 1: 4 semaines, 2 sprints
+- Projet 2: 5 semaines, 2 sprints + 1 brush-up
 
 ## Les équipes
 
@@ -56,7 +57,7 @@ Pour le début d'un projet les premiers jours se passeront comme tel:
 
 - Jour 1: Configuration de l'app, des outils. Choix du workflow de travail. Mise en place du pipeline, de github, du CI. Choix des heures de réunion et de quelles réunion. Pas de code métier. Juste de la configuration et du choix de comment travailler.
 - Jour 2: Écriture des premières User Story et des specs pour la première semaine. Jusqu'ici, à part de la configuration: Pas de code.
-- Jour 3: On vérifie tout ça et on brush-up ce qui a été fait jour 1 et 2. On essaye de prévoir quels seront les points techniques bloquants/difficiles du projet. On envoie le planning du sprint 1 au gentil @zaratan. Et: Toujours. Pas. De. Code. 
+- Jour 3: On vérifie tout ça et on brush-up ce qui a été fait jour 1 et 2. On essaye de prévoir quels seront les points techniques bloquants/difficiles du projet. On envoie le planning du sprint 1 au gentil @zaratan. Et: Toujours. Pas. De. Code.
 - Jour 4: Go.
 
 Oui, je sais que ça peut paraitre lourd, mais croyez moi en bout de ligne vous vous rendrez compte que vous gagnerez du temps.
@@ -82,6 +83,6 @@ L'idée est d'ici de s'attaquer a une problématique que vous connaissez déjà 
 Pour le premier projet vous allez être guidés dans la configuration et les workflow. Vous pouvez en dévier a vos risques et périls :D (Et je ne ferai peut-être pas de support technique si c'est trop nimp)
 
 - La [configuration](./configuration/readme.md): C'est un gros morceau. Faites ça bien, prenez le temps tous ensemble de bien comprendre chaque étape et ce a quoi sert chaque outil. Vous pouvez lire de la doc en plus et/ou expérimenter dans votre coin pour chaque outil.
-- Le pipeline: Ici rien de très magique. Juste une mise au point.
+- Le [pipeline](./pipeline/readme.md): Ici rien de très magique. Juste une mise au point.
 - Le workflow: Le workflow de travail que je conseille pour ce projet.
 - Les specs: De la doc sur comment écrire de belles specs :D
