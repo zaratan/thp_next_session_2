@@ -30,6 +30,7 @@ It helps NOT having things that works in dev but not in production.
 ### Must Have
 
 - [ ] .ruby-version: Must be 2.6.2
+- [ ] Add it to your gemfile: replace the line indicating ruby version by: `ruby File.read('./.ruby-version')`
 - [ ] .ruby-gemset: Must be any uniq string related to the project
 
 ### Reading List
