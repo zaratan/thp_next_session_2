@@ -85,4 +85,4 @@ Pour le premier projet vous allez être guidés dans la configuration et les wor
 - La [configuration](./configuration/readme.md): C'est un gros morceau. Faites ça bien, prenez le temps tous ensemble de bien comprendre chaque étape et ce a quoi sert chaque outil. Vous pouvez lire de la doc en plus et/ou expérimenter dans votre coin pour chaque outil.
 - Le [pipeline](./pipeline/readme.md): Ici rien de très magique. Juste une mise au point.
 - Le [workflow](./workflow/readme.md): Le workflow de travail que je conseille pour ce projet.
-- Les specs: De la doc sur comment écrire de belles specs :D
+- Les [specs](./specs/readme.md): De la doc sur comment écrire de belles specs :D
