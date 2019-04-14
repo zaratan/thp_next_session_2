@@ -148,7 +148,7 @@ Consider it as a maximum of trust you can have in a codebase.
 ### Must have
 
 - [ ] Add [simplecov](https://github.com/colszowka/simplecov#getting-started)
-- [ ] Add the coverage directory to gitignore
+- [ ] Add the coverage directory to .gitignore
 - [ ] Configure simplecov to run with rspec: `SimpleCov.start 'rails'`
 
 ### Reading list
@@ -168,10 +168,66 @@ It's easier to be able to know what is in DB on top of relevant files.
 
 ## dotenv
 
-## Docker && Docker-compose
+### Why?
+
+It's practical to be able to set env variables without commiting them.
+In heroku, everything will also come as env variables.
+
+### Must Have
+
+- [ ] install [dotenv](https://github.com/bkeepers/dotenv)
+- [ ] add `.env` to .gitignore
+- [ ] Be sure to generate a commited `.env_sample` which will contain the different keys needed into your `.env` but with mock values
+
+## Docker-compose
+
+### Why?
+
+Using services not installed directly on host allows us to have:
+
+- A better control of which version is used
+- An easy way to destroy everything: `docker-compose down -v`
+- An easy way to install some services for every dev
+- Services are compartimented by app (working on two projects won't impact each other)
+
+### Must have
+
+- [ ] Copy docker-compose.yml from [previous project](https://raw.githubusercontent.com/denispasin/mvc_exercise/master/docker-compose.yml)
+- [ ] Be sure to understand what is what.
 
 ## Database
 
+Copy paste the configuration from [previous project](https://github.com/denispasin/mvc_exercise/blob/master/config/database.yml) so your database will work with a dockerized postgres.
+
 ## Husky
 
+### Why ?
+
+Husky is a tool to run commands before each commit and push. It block a commit/push if everything is not perfect.
+
+We are all lazy. Husky helps us by forcing us to keep our code base clean and tested.
+
+### Must have
+
+- [ ] check your version of node should be > 6 and npm installed
+- [ ] `npm install --dev husky` https://github.com/typicode/husky
+- [ ] Configure it for running before each commit: rubocop
+- [ ] Configure it for running before each push: rspec
+- [ ] Don't forget to add `node_modules` inside your `.gitignore`
+
 ## Guard (optional)
+
+### Why ?
+
+Guard is a tool that watch for any change on certain files and then run some commands.
+It's useful 'cause we can use it to never forget to run tests/linting before commit/push.
+
+### Must have
+
+- [ ] [Guard](https://github.com/guard/guard) configured for the project
+- [ ] Auto test with: [guard-rspec](https://github.com/guard/guard-rspec)
+- [ ] Auto lint with: [guard-rubocop](https://github.com/yujinakayama/guard-rubocop)
+
+### Reading list
+
+- [Configure Guard](https://github.com/guard/guard/wiki/Guardfile-DSL---Configuring-Guard)
