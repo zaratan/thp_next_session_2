@@ -138,13 +138,33 @@ Using `create(:my_model, name: 'important')` is way more easier.
 ### Why?
 
 Tracking the coverage of all our code is helpful and tells you what should be tested next.
+Sometimes we think that we have enough tests, sometimes we don't. How about having a metric that will give us a better vision ?
+
+For this, there's coverage. It helps us to know what have been tested and what haven't.
+However, we can still write stupid tests without any expect that cover all the lines.
+
+Consider it as a maximum of trust you can have in a codebase.
 
 ### Must have
 
-- [ ] Simple cov [installed](https://github.com/colszowka/simplecov#getting-started)
-- [ ] Simple configuration: `SimpleCov.start 'rails'`
+- [ ] Add [simplecov](https://github.com/colszowka/simplecov#getting-started)
+- [ ] Add the coverage directory to gitignore
+- [ ] Configure simplecov to run with rspec: `SimpleCov.start 'rails'`
+
+### Reading list
+
+- [Configuring simplecov](https://github.com/colszowka/simplecov#configuring-simplecov)
 
 ## Annotate
+
+### Why?
+
+It's easier to be able to know what is in DB on top of relevant files.
+
+### Must have
+
+- Add [annotate](https://github.com/ctran/annotate_models) gem
+- Install it: `rails g annotate:install`
 
 ## dotenv
 
