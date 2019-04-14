@@ -16,7 +16,7 @@ A development workflow should be the following:
 10. Verify that everything is fine in staging: The issue itself + an overall sanity test of the app. Having review apps activated **doesn't** remove the need to do this!
 11. Promote staging to production is everything is fine otherwise, warn others of the problem and fix it ASAP in another branch and PR. Do not fix directly on master.
 
-## Master branch protection :
+## Master branch protection
 
 No one should be allowed to push code on the master branch. So in the settings of your app (settings/branches) add master as a protected branch.
 
@@ -38,7 +38,7 @@ A non regression checklist is a list of actions to execute manually on the site 
 
 Don't forget to update your non-regression checklist as the features of your app grow and change.
 
-## [Optional] Adding CircleCI to run unit tests and rubocop once more.
+## [Optional] Adding CircleCI to run unit tests and rubocop once more
 
 ### Why?
 
@@ -56,7 +56,7 @@ CircleCi will run our test for us in "the cloud" for each pushed commit and prev
 - [CircleCi doc](https://circleci.com/docs/2.0/)
 - [Example](https://github.com/denispasin/turtle_family/blob/master/.circleci/config.yml)
 
-## [Optional] Adding Cypress.io to do integration testing
+## [Very Optional] Adding Cypress.io to do integration testing
 
 ### Why?
 
