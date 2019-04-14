@@ -7,7 +7,7 @@ A development workflow should be the following:
 1. A developer picks a new issue (let's say "#42 answer the question")
 2. He creates a new branch named accordingly (here: ticket/42_life_and_universe)
 3. He works in it and finish the work + related tests. He makes multiple commits. All of the should reference the issue number (for example: "#42: Taking care of mice")
-4. He creates a new pull-request to master for his job: Go to https://github.com/user/repo/pulls and click on "Create a new pull request".
+4. He creates a new pull-request (here: "For #42: Solving the ultimate question") to master for his job: Go to https://github.com/user/repo/pulls and click on "Create a new pull request".
 5. His pull request description Must end with the line: "Closes: #42" so the issue will be automatically closed.
 6. When he is satisfied with the state of his PR he assigns it to another dev.
 7. The **Other** developer will do the code review. He can asks questions, suggests modifications and at the end approve the PR.
