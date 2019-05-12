@@ -74,9 +74,17 @@ N'hésitez pas a poser des question en publique aussi si vous avez besoin d'un c
 
 C'est le mode normal et relativement progressif.
 
+L'idée est de mettre en place l'application sans aucun Ajax puis de transférer tout en Ajax petit à petit.
+
 ### Rails as an API + React with webpacker ☣
 
-C'est le mode Hardcore difficile dès le début mais sur le long terme ça sera plus simple. La première marche est juste beaucoup plus grande.
+C'est le mode Hardcore difficile.
+
+Rails servira uniquement d'API et webpacker fera le travail de packager l'application React pour vous.
+
+J'ai un expliqué comment ça marche [ici](https://www.zaratan.fr/posts/migrate_from_erb_to_react/).
+
+C'est (très) difficile car il faudra apprendre React et toute la stack JS en même temps.
 
 ## La mise en production
 
@@ -86,3 +94,7 @@ Je suis un client sérieux 😆 je veux que mon app soit solide. Je vais donc vo
 * Avoir un système que référence les différents bugs et permettent les développeurs de comprendre quand ça arrive, a qui et pourquoi.
 * Avoir configuré un nom de domaine custom configuré (si il vous manque un domaine, on s'arrangera 😏). (Comme vous allez être en free heroku il n'y aura pas de https mais ce n'est pas grave).
 * Heroku doit parler et être pilotable sur/depuis slack.
+
+## Conclusion
+
+Bon courage 💙💚💕💞
