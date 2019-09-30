@@ -82,7 +82,7 @@ C'est le mode Hardcore difficile.
 
 Rails servira uniquement d'API et webpacker fera le travail de packager l'application React pour vous.
 
-J'ai un expliqué comment ça marche [ici](https://www.zaratan.fr/posts/migrate_from_erb_to_react/).
+J'ai un expliqué comment ça marche [ici](https://www.zaratan.fr/migrer-depuis-erb-vers-react).
 
 C'est (très) difficile car il faudra apprendre React et toute la stack JS en même temps.
 
